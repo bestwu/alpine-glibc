@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM alpine:3.6
 MAINTAINER Peter Wu <piterwu@outlook.com>
 ENV LANG=C.UTF-8 \
     GLIBC_PKG_VERSION=2.25-r0
