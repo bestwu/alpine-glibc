@@ -1,5 +1,5 @@
 FROM alpine:3.6
-MAINTAINER Peter Wu <piterwu@outlook.com>
+LABEL maintainer='Peter Wu <piterwu@outlook.com>'
 ENV LANG=C.UTF-8 \
     GLIBC_VERSION=2.25-r0
 WORKDIR /tmp
